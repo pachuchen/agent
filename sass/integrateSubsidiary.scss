@@ -1,0 +1,56 @@
+﻿@import "presentationWeb/*.png";
+@import "presentationVideo/*.png";
+@include all-presentationWeb-sprites;
+@include all-presentationVideo-sprites; 
+
+$integratePrimaryColor:#bd0020;
+
+body{
+	background-color: #F8F8F5;
+}
+
+.resouceImg{
+	background: url(../images/webResouceImgR.jpg) center top no-repeat;
+	height: 513px;
+	margin:-1px 50px 50px 0px;
+}
+#videoImg{
+	background-image: url(../images/videoResouceImgR.jpg);
+}
+#presentationResouse{
+	padding: 15px 0px;
+
+	article{
+		p{
+			margin: 20px 30px;
+			font-size: 16px;
+			color: #74795B;
+			line-height: 29px;
+			text-indent: 2em;
+		}
+	}
+	figure{
+		margin: 28px 5px;
+	div{
+			height: 105px;
+			margin-top: -1px;
+			background-color: $integratePrimaryColor;
+	}
+	article{
+		margin: 0px; 
+		h1{
+		border-bottom: 2px solid $integratePrimaryColor;
+		width: 120px;
+		padding: 0px 0px 3px 1px;
+		color: $integratePrimaryColor;
+		font-size: 19px;
+		font-weight: bold;
+				}
+		}
+		h2{
+		padding: 7px 0px;
+		font-size: 14px;
+		color: #4e4e4e;
+	 }
+	}
+}

@@ -1,0 +1,139 @@
+﻿$primaryColor:#bd0020;
+//$primaryColor:#004873;	
+$wordsWhite:#d5d4d4;
+$nowPlayball: url(../images/redBall.gif);
+$topLogo: url(../images/integrateLogo.jpg);
+
+#businessCard{
+	position: absolute;
+	top:200px;
+	right: 0px;
+	figure{
+		background: url(../images/aaronQRcode.jpg)center top no-repeat;
+		width: 106px;
+		height: 306px;
+	}
+}
+	
+	body {
+		background-color: #c2c2c2;
+		font-size: 14px;
+		color: $wordsWhite;
+		font-family: Arial, "Microsoft YaHei", "宋体", "Lucida Sans Unicode", Helvetica, Verdana, sans-serif;
+		}
+	a{
+		text-decoration: none;
+	}	
+	
+	#mainContent{
+		width: 1300px;
+		margin: 0px auto ;
+	}
+
+	.hideWords{
+	display: none;
+	}
+
+header{
+	background-color: #272727;
+	#logo{
+		margin: 0px auto;
+	width: 219px;
+	height: 138px;
+	background: $topLogo center top no-repeat;
+	}
+	#mainBar{
+		height: 36px;
+		background-color:$primaryColor;
+		border-bottom: 1px solid #AA001E;
+		ul{			
+			margin: 0 auto;
+			li{
+				padding: 9px 60px;
+				float: left;
+				font-size: 18px;
+				a{
+					color: #d5d4d4;
+				}
+				
+			}
+		}
+	}	
+}	
+
+#slideShow{
+	background-color: #F8F8F5;
+	div{
+		 width: 938px;
+		 height: 279px;
+		 margin: 0px auto;
+		}
+}
+#slideShowSelect{
+		width: 100px;
+		margin: 25px auto;
+				a{
+					margin: 0px 7px;
+				display: inline-block;
+					width: 15px;
+				height: 15px;
+				background: url(../images/grayBall.gif) center top no-repeat;
+				}
+			
+			.nowPlay{
+				background-image:$nowPlayball;
+				}
+}
+
+
+#agentResouse{
+	background-color: #c2c2c2;
+	margin: 0px 0px 40px 0px;
+	ul{
+		overflow: hidden;
+		li{
+			a{				
+				figure{
+					background-color: $primaryColor;
+					display: block;
+					height: 214px;
+					span{
+						visibility: hidden;
+					}
+					div{
+						margin: 152px 0px 0px 0px;
+					figcaption{
+						background-color: #272727;
+						border-top: 4px solid $primaryColor;
+						color: $wordsWhite;
+						padding: 15px 0px;
+						text-align: center;
+						font-size: 17px;
+						}
+					}
+				}
+				.videoImg{
+				background: url(../images/video.jpg) center top no-repeat;
+				}
+				.bannerImg{
+				background: url(../images/banner.jpg) center top no-repeat;
+				}
+				.websiteImg{
+				background: url(../images/website.jpg) center top no-repeat;			
+			}
+			}
+		}
+	}
+}
+
+footer{
+	border-bottom: 7px solid $primaryColor;
+	background-color: #272727;
+	padding:0px;
+ 
+ p{
+		padding: 20px 0px;
+		text-align:       center;
+  }
+}
+	

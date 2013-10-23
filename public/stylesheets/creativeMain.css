@@ -1,0 +1,26 @@
+#businessCard figure {
+  background-image: url(../images/andersonQRcode.jpg);
+}
+
+header #logo {
+  background: url(../images/creativeLogo.jpg) center top no-repeat;
+}
+header #mainBar {
+  background-color: #006bc4;
+  border-bottom: 1px solid #155799;
+}
+
+#slideShowSelect .nowPlay {
+  background-image: url(../images/blueBall.gif);
+}
+
+#agentResouse ul li a figure {
+  background-color: #006bc4;
+}
+#agentResouse ul li a figure div figcaption {
+  border-top: 4px solid #006bc4;
+}
+
+footer {
+  border-bottom: 7px solid #006bc4;
+}

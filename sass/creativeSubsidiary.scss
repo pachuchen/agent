@@ -1,0 +1,22 @@
+﻿$PrimaryColor:#006bc4;
+
+.resouceImg{
+	background-image: url(../images/webResouceImgB.jpg) ;
+}
+#videoImg{
+	background-image: url(../images/videoResouceImgB.jpg);
+}
+#presentationResouse{
+	padding: 15px 0px;
+	figure{
+			div{
+					background-color: $PrimaryColor;
+			}
+	article{
+			h1{
+			border-bottom: 2px solid $PrimaryColor;
+			color: $PrimaryColor;
+					}
+		}
+	}
+}

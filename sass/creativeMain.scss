@@ -1,0 +1,49 @@
+﻿$PrimaryColor: #006bc4;	
+$nowPlayball: url(../images/blueBall.gif);
+$topLogo: url(../images/creativeLogo.jpg);
+
+#businessCard{
+	figure{
+		background-image: url(../images/andersonQRcode.jpg);
+	}
+}
+
+header{
+	#logo{
+	background: $topLogo center top no-repeat;
+	}
+	#mainBar{
+		background-color:$PrimaryColor;
+		border-bottom: 1px solid #155799;
+	}	
+}	
+
+
+#slideShowSelect{
+	.nowPlay{
+		background-image:$nowPlayball;
+		}
+}
+
+
+#agentResouse{
+	ul{
+		li{
+			a{				
+				figure{
+					background-color: $PrimaryColor;
+					div{
+					figcaption{
+						border-top: 4px solid $PrimaryColor;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	border-bottom: 7px solid $PrimaryColor;
+}
+	
