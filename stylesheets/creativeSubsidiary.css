@@ -6,6 +6,11 @@
   background-image: url(../images/videoResouceImgB.jpg);
 }
 
+#bannerImg {
+  background-image: url(../images/bannerResouceImgB.jpg);
+  background-position: 0px;
+}
+
 #presentationResouse {
   padding: 15px 0px;
 }

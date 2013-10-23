@@ -46,4 +46,8 @@ header{
 footer{
 	border-bottom: 7px solid $PrimaryColor;
 }
+
+.theme-default .nivo-controlNav a.active {
+	background-image: url(../images/blueBall.gif);
+}
 	
