@@ -25,6 +25,11 @@ body{
 	background-position: 0px;
 }
 
+#questionImg{
+	background-image: url(../images/question_r.jpg);
+	background-position: 0px;
+}
+
 #presentationResouse{
 	padding: 15px 0px;
 
@@ -38,27 +43,50 @@ body{
 		}
 	}
 	figure{
-		margin: 28px 5px;
-	div{
-			height: 105px;
-			margin-top: -1px;
-			background-color: $PrimaryColor;
-	}
-	article{
-		margin: 0px; 
-		h1{
-		border-bottom: 2px solid $PrimaryColor;
-		width: 120px;
-		padding: 0px 0px 3px 1px;
-		color: $PrimaryColor;
-		font-size: 19px;
-		font-weight: bold;
-				}
+			margin: 28px 5px;
+			div{
+					height: 105px;
+					margin-top: -1px;
+					background-color: $PrimaryColor;
+			}
+			article{
+				margin: 0px; 
+						h1{
+						border-bottom: 2px solid $PrimaryColor;
+						width: 120px;
+						padding: 0px 0px 3px 1px;
+						color: $PrimaryColor;
+						font-size: 19px;
+						font-weight: bold;
+							}
+					}
+					
+					h2{
+					padding: 7px 0px;
+					font-size: 14px;
+					color: #4e4e4e;
+					 }
 		}
-		h2{
-		padding: 7px 0px;
+}
+
+#questions{
+	article{
 		font-size: 14px;
-		color: #4e4e4e;
-	 }
+		color: #74795B;
+		text-indent: 2em;
+		line-height: 29px;
+		p{
+			margin: 20px 30px;	
+		}
+		h1{
+			font-size: 20px;
+			margin: 20px 0px;
+			font-weight:bold; 
+			color: $PrimaryColor;
+		}
+		ol{
+			text-indent: 0em;
+			list-style-type:upper-roman;
+		}
 	}
 }

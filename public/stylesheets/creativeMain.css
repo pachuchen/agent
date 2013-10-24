@@ -24,3 +24,7 @@ header #mainBar {
 footer {
   border-bottom: 7px solid #006bc4;
 }
+
+.theme-default .nivo-controlNav a.active {
+  background-image: url(../images/blueBall.gif);
+}

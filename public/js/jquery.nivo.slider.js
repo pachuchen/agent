@@ -329,7 +329,7 @@
             
             // Set active links
             if(settings.controlNav){
-                $('a', vars.controlNavEl).removeClass('active');
+                $('a', vars.controlNavEl).removeClass('active'); 
                 $('a:eq('+ vars.currentSlide +')', vars.controlNavEl).addClass('active');
             }
             

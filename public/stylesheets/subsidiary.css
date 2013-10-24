@@ -141,6 +141,11 @@ body {
   background-position: 0px;
 }
 
+#questionImg {
+  background-image: url(../images/question_r.jpg);
+  background-position: 0px;
+}
+
 #presentationResouse {
   padding: 15px 0px;
 }
@@ -174,4 +179,24 @@ body {
   padding: 7px 0px;
   font-size: 14px;
   color: #4e4e4e;
+}
+
+#questions article {
+  font-size: 14px;
+  color: #74795B;
+  text-indent: 2em;
+  line-height: 29px;
+}
+#questions article p {
+  margin: 20px 30px;
+}
+#questions article h1 {
+  font-size: 20px;
+  margin: 20px 0px;
+  font-weight: bold;
+  color: #bd0020;
+}
+#questions article ol {
+  text-indent: 0em;
+  list-style-type: upper-roman;
 }
