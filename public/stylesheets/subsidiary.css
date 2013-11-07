@@ -199,4 +199,11 @@ body {
 #questions article ol {
   text-indent: 0em;
   list-style-type: upper-roman;
+  padding: 0px 0px 50px 0px;
+}
+#questions figure figcaption {
+  font-size: 20px;
+  margin: 20px 0px;
+  font-weight: bold;
+  color: #bd0020;
 }

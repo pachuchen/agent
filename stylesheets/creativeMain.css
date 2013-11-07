@@ -9,6 +9,9 @@ header #mainBar {
   background-color: #006bc4;
   border-bottom: 1px solid #155799;
 }
+header #mainBar ul li #gamesMenu {
+  background-color: #006bc4;
+}
 
 #slideShowSelect .nowPlay {
   background-image: url(../images/blueBall.gif);
