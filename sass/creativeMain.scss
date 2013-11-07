@@ -14,12 +14,14 @@ header{
 	}
 	#mainBar{
 		background-color:$PrimaryColor;
-		border-bottom: 1px solid #155799;
-		
+		border-bottom: 1px solid #155799;		
 			ul{
 				li{
 					#gamesMenu{
 					background-color:$PrimaryColor;
+					}
+					&:hover{
+					background-color:  #5BB6FF;					
 				}
 			}
 			
