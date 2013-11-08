@@ -146,6 +146,11 @@ body {
   background-position: 0px;
 }
 
+#livegame {
+  background-image: url(../images/livegame_r.jpg);
+  background-position: 0px;
+}
+
 #presentationResouse {
   padding: 15px 0px;
 }
@@ -170,7 +175,7 @@ body {
 #presentationResouse figure article h1 {
   border-bottom: 2px solid #bd0020;
   width: 120px;
-  padding: 0px 0px 3px 1px;
+  padding: 0px 0px 7px 1px;
   color: #bd0020;
   font-size: 19px;
   font-weight: bold;

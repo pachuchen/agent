@@ -22,6 +22,9 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/subsidiary.css">
 	<link rel="stylesheet" type="text/css" id="nowSubsidiary">
 
+	<link rel="stylesheet" type="text/css" href="lightbox/shadowbox.css">
+	<script type="text/javascript" src="lightbox/shadowbox.js"></script>
+
 	  <script src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/divisionCSS.js"></script>
 	
@@ -71,16 +74,17 @@
 			</article>
 		
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~SLOT~~~~~~~~~~~~~~~~~~~~~ -->
-		<figure class="grid_4">
-			
-		<div class="grid_2  presentationWeb-slot"></div>		
+		<a rel="shadowbox" href="question.html">
+			<figure class="grid_4">
+		<div class="grid_2  presentationWeb-slot"></div>
 		<article class="grid_2 ">
 			<h1 >老虎機風格</h1>
 			<h2>类 型 : 网站</h2>
 		<h2>规 格 : </h>
 		</article>
-		
 		</figure>
+		</a>
+		
 		
 
 <!-- ~~~~~~~~~~~~~~~~~~~COLORDISH~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -141,6 +145,10 @@
 	<footer>
 		<p>Copyright © 2013 博九网 Reserved</p>
 	</footer>
-	
+
+	<script type="text/javascript">
+	Shadowbox.init();
+	</script>
+
 </body>
 </html>

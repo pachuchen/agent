@@ -30,6 +30,11 @@ body{
 	background-position: 0px;
 }
 
+#livegame{
+	background-image: url(../images/livegame_r.jpg);
+	background-position: 0px;
+}
+
 #presentationResouse{
 	padding: 15px 0px;
 
@@ -54,7 +59,7 @@ body{
 						h1{
 						border-bottom: 2px solid $PrimaryColor;
 						width: 120px;
-						padding: 0px 0px 3px 1px;
+						padding: 0px 0px 7px 1px;
 						color: $PrimaryColor;
 						font-size: 19px;
 						font-weight: bold;
