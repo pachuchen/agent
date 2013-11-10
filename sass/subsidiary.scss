@@ -1,9 +1,15 @@
 ﻿@import "presentationWeb/*.png";
 @import "presentationVideo/*.png";
 @import "presentationBanner/*.png";
+@import "live/*.png";
+@import "slot/*.png";
+@import "lottery/*.png";
 @include all-presentationWeb-sprites;
 @include all-presentationVideo-sprites; 
 @include all-presentationBanner-sprites;
+@include all-live-sprites;
+@include all-slot-sprites;
+@include all-lottery-sprites;
 
 $PrimaryColor:#bd0020;
 
