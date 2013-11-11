@@ -27,21 +27,23 @@ window.onload = function() {
 
 };*/
 var x=document.getElementById("test");
+x.setAttribute("class","blackF")
+console.log(x.className)
 
-$("#presentationResouse a").click(function(event) {
+// $("#presentationResouse a").click(function(event) {
 
-     Shadowbox.open({
-        content:    x.innerHTML,
-        player:     "html",
-        title:      "Welcome",
-        height:     350,
-        width:      350,
-        options: {onFinish: function () { 
-               $("#test h1").text($(this).data("name"));
-               console.log($(this));
-            }}
-    });
+//      Shadowbox.open({
+//         content:    x.innerHTML,
+//         player:     "html",
+//         title:      "Welcome",
+//         height:     350,
+//         width:      350,
+//         options: {onFinish: function () { 
+//                $("#test h1").text($(this).data("name"));
+//                console.log($(this));
+//             }}
+//     });
     
-    console.log($(this).data("name"));
-    return false;
-});
+//     console.log($(this).data("name"));
+//     return false;
+// });
