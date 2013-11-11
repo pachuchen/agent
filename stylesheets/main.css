@@ -98,7 +98,7 @@ header #logo {
 header #mainBar {
   height: 37px;
   background-color: #bd0020;
-  border-bottom: 1px solid #AA001E;
+  border-bottom: 1px solid #6A0013;
 }
 header #mainBar ul {
   margin: 0 auto;
@@ -203,4 +203,8 @@ footer p {
   color: #d5d4d4;
   padding: 20px 0px;
   text-align: center;
+}
+
+.test_css {
+  font-size: 20px;
 }

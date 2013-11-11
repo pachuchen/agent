@@ -21,6 +21,7 @@ body{
 	background: url(../images/webResouceImgR.jpg) center top no-repeat;
 	height: 513px;
 	margin:-1px 50px 50px 0px;
+	position: relative;
 }
 #videoImg{
 	background-image: url(../images/videoResouceImgR.jpg);
@@ -38,6 +39,16 @@ body{
 
 #livegame{
 	background-image: url(../images/livegame_r.jpg);
+	background-position: 0px;
+}
+
+#slotgame{
+	background-image: url(../images/slotgame_r.jpg);
+	background-position: 0px;
+}
+
+#lotterygame{
+	background-image: url(../images/lotterygame_r.jpg);
 	background-position: 0px;
 }
 

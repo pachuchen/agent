@@ -10,12 +10,12 @@
   background: url('../images/presentationBanner-s1a0117c60b.png') no-repeat;
 }
 
-.live-sprite, .live-game_live_baccarat, .live-game_live_bb, .live-game_live_bb3d, .live-game_live_dt, .live-game_live_mahjong, .live-game_live_roulette, .live-game_live_sedie, .live-game_live_sicbo, .live-game_live_texas, .live-game_live_wenzhou {
-  background: url('../images/live-s4d0731e1be.png') no-repeat;
+.live-sprite, .live-game_live_baccarat, .live-game_live_bb, .live-game_live_bb3d, .live-game_live_dt, .live-game_live_mahjong, .live-game_live_roulette, .live-game_live_sedie, .live-game_live_sicbo, .live-game_live_texas, .live-game_live_wenzhou, .live-game_lottery_actc, .live-game_lottery_bb, .live-game_lottery_bc, .live-game_lottery_beijing {
+  background: url('../images/live-s5836ff1910.png') no-repeat;
 }
 
 .slot-sprite, .slot-game_slot_crazy, .slot-game_slot_fruit, .slot-game_slot_horse, .slot-game_slot_number, .slot-game_slot_sex, .slot-game_slot_tropical {
-  background: url('../images/slot-s63610f0e22.png') no-repeat;
+  background: url('../images/slot-sd69036f89a.png') no-repeat;
 }
 
 .lottery-sprite, .lottery-game_lottery_actc, .lottery-game_lottery_bb, .lottery-game_lottery_bc, .lottery-game_lottery_beijing {
@@ -139,7 +139,7 @@
 }
 
 .live-game_live_bb {
-  background-position: 0 -560px;
+  background-position: 0 -280px;
 }
 
 .live-game_live_bb3d {
@@ -151,7 +151,7 @@
 }
 
 .live-game_live_mahjong {
-  background-position: 0 -280px;
+  background-position: 0 -560px;
 }
 
 .live-game_live_roulette {
@@ -174,12 +174,28 @@
   background-position: 0 -700px;
 }
 
+.live-game_lottery_actc {
+  background-position: 0 -1680px;
+}
+
+.live-game_lottery_bb {
+  background-position: 0 -1400px;
+}
+
+.live-game_lottery_bc {
+  background-position: 0 -1540px;
+}
+
+.live-game_lottery_beijing {
+  background-position: 0 -1820px;
+}
+
 .slot-game_slot_crazy {
   background-position: 0 -560px;
 }
 
 .slot-game_slot_fruit {
-  background-position: 0 -140px;
+  background-position: 0 -280px;
 }
 
 .slot-game_slot_horse {
@@ -191,7 +207,7 @@
 }
 
 .slot-game_slot_sex {
-  background-position: 0 -280px;
+  background-position: 0 -140px;
 }
 
 .slot-game_slot_tropical {
@@ -222,6 +238,7 @@ body {
   background: url(../images/webResouceImgR.jpg) center top no-repeat;
   height: 513px;
   margin: -1px 50px 50px 0px;
+  position: relative;
 }
 
 #videoImg {
@@ -240,6 +257,16 @@ body {
 
 #livegame {
   background-image: url(../images/livegame_r.jpg);
+  background-position: 0px;
+}
+
+#slotgame {
+  background-image: url(../images/slotgame_r.jpg);
+  background-position: 0px;
+}
+
+#lotterygame {
+  background-image: url(../images/lotterygame_r.jpg);
   background-position: 0px;
 }
 

@@ -45,7 +45,7 @@ header{
 	#mainBar{
 		height: 37px;
 		background-color:$PrimaryColor;
-		border-bottom: 1px solid #AA001E;
+		border-bottom: 1px solid #6A0013;
 		ul{			
 			margin: 0 auto;
 			li{
@@ -161,5 +161,9 @@ footer{
 		padding: 20px 0px;
 		text-align:       center;
   }
+}
+
+.test_css{
+	font-size: 20px;
 }
 	
