@@ -274,7 +274,7 @@ body {
   padding: 15px 0px;
 }
 #presentationResouse article p {
-  margin: 20px 30px;
+  margin: 20px 12px;
   font-size: 16px;
   color: #74795B;
   line-height: 29px;
@@ -293,7 +293,7 @@ body {
 }
 #presentationResouse figure article h1 {
   border-bottom: 2px solid #bd0020;
-  width: 120px;
+  width: 138px;
   padding: 0px 0px 7px 1px;
   color: #bd0020;
   font-size: 19px;
@@ -304,9 +304,17 @@ body {
   font-size: 14px;
   color: #4e4e4e;
 }
+#presentationResouse figure p {
+  padding: 7px 0px;
+  font-size: 14px;
+  color: #4e4e4e;
+  margin: 0px;
+  text-indent: 0em;
+  line-height: 20px;
+}
 
 #questions article {
-  font-size: 14px;
+  font-size: 13px;
   color: #74795B;
   text-indent: 2em;
   line-height: 29px;
@@ -330,4 +338,24 @@ body {
   margin: 20px 0px;
   font-weight: bold;
   color: #bd0020;
+}
+
+#sb-player {
+  background: url(../images/plate.jpg) right top no-repeat;
+}
+
+#sb-player img {
+  margin: 10px;
+}
+#sb-player h1 {
+  color: #bd0020;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 0px;
+}
+#sb-player p {
+  line-height: 30px;
+  padding: 10px;
 }

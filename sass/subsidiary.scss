@@ -57,7 +57,7 @@ body{
 
 	article{
 		p{
-			margin: 20px 30px;
+			margin: 20px 12px;
 			font-size: 16px;
 			color: #74795B;
 			line-height: 29px;
@@ -75,7 +75,7 @@ body{
 				margin: 0px; 
 						h1{
 						border-bottom: 2px solid $PrimaryColor;
-						width: 120px;
+						width: 138px;
 						padding: 0px 0px 7px 1px;
 						color: $PrimaryColor;
 						font-size: 19px;
@@ -87,6 +87,15 @@ body{
 					padding: 7px 0px;
 					font-size: 14px;
 					color: #4e4e4e;
+					 }
+
+					 p{
+					 	padding: 7px 0px;
+					font-size: 14px;
+					color: #4e4e4e;
+					margin: 0px;
+					text-indent:0em;
+					line-height: 20px;
 					 }
 		}
 }
@@ -100,7 +109,7 @@ body{
 
 #questions{
 	article{
-		font-size: 14px;
+		font-size: 13px;
 		color: #74795B;
 		text-indent: 2em;
 		line-height: 29px;
@@ -120,3 +129,27 @@ body{
 	 @include heading_base;
 	}
 }
+
+#sb-player{
+	background: url(../images/plate.jpg) right top no-repeat;
+
+}
+
+#sb-player{
+	img{
+		margin: 10px;
+	}
+	h1{
+	color:$PrimaryColor; 
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px;
+	line-height: 0px;
+}
+p{
+	line-height: 30px;
+	padding:10px;
+}} 
+
+ 

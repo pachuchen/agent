@@ -27,23 +27,45 @@ window.onload = function() {
 
 };*/
 var x=document.getElementById("test");
-x.setAttribute("class","blackF")
-console.log(x.className)
+//console.log(x.className)
 
-// $("#presentationResouse a").click(function(event) {
+//x.onclick=displayContent;
 
-//      Shadowbox.open({
-//         content:    x.innerHTML,
+// function displayContent(event){
+//      console.log(event.target)
+//     Shadowbox.open({
+//         content:    event.target.outerHTML,
 //         player:     "html",
-//         title:      "Welcome",
-//         height:     350,
-//         width:      350,
-//         options: {onFinish: function () { 
-//                $("#test h1").text($(this).data("name"));
-//                console.log($(this));
-//             }}
+//          height:     350,
+//          width:      350,
 //     });
+// }
+
+var heading;
+var discription;
+var displayImg;
+ 
+
+$("#presentationResouse a").click(function(event) {
+   var htmlTemplate = "<figure><img><article><h1></h1><p></p></article></figure>";
+    heading = $(this).data("heading");
+    discription =  $(this).data("discription")
+    displayImg= $(this).data("image")
+     Shadowbox.open({
+        content:    htmlTemplate,
+        player:     "html",
+        width:     310,
+        height:    320,
+       
+        options: {onFinish: function () { 
+               $("#sb-player h1").text(heading);
+                $("#sb-player p").text(discription);
+                $("#sb-player img").attr({
+                    src: displayImg
+                });
+                }}
+    });
     
-//     console.log($(this).data("name"));
-//     return false;
-// });
+    //console.log(event.target);
+    return false;
+});

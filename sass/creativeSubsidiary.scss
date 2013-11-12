@@ -1,4 +1,4 @@
-﻿$PrimaryColor:#006bc4;
+﻿$PrimaryColor: #006bc4;
 
 .resouceImg{
 	background-image: url(../images/webResouceImgB.jpg) ;
@@ -45,4 +45,8 @@
 					}
 		}
 	}
+}
+
+#sb-player h1{
+	color:$PrimaryColor; 
 }
