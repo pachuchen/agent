@@ -54,8 +54,8 @@ $("#presentationResouse a").click(function(event) {
      Shadowbox.open({
         content:    htmlTemplate,
         player:     "html",
-        width:     310,
-        height:    320,
+        width:     1000,
+        height:    400,
        
         options: {onFinish: function () { 
                $("#sb-player h1").text(heading);
