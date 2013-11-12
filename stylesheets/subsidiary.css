@@ -365,3 +365,15 @@ body {
   padding: 0px 20px 0px 20px;
   text-indent: 0px;
 }
+#sb-player article a {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #bd0020;
+  font-size: 17px;
+  padding: 14px;
+}
+#sb-player article a:hover {
+  background-color: #fd554d;
+}

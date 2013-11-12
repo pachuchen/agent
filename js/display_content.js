@@ -44,10 +44,13 @@ var x=document.getElementById("test");
 var heading;
 var discription;
 var displayImg;
+var get_href;
  
 
 $("#presentationResouse a").click(function(event) {
-   var htmlTemplate = "<figure><img><article><h1></h1><p></p></article></figure>";
+   var htmlTemplate = "<figure><img><article><h1></h1><p></p><a ></a></article></figure>";
+   var domain = $(location).attr('href');
+
     heading = $(this).data("heading");
     discription =  $(this).data("discription")
     displayImg= $(this).data("image")
@@ -63,9 +66,12 @@ $("#presentationResouse a").click(function(event) {
                 $("#sb-player img").attr({
                     src: displayImg
                 });
+                if (domain.match("videoResouse")) {
+                        $("#sb-player a").text("立即前往")
+                       }
                 }}
     });
     
-    //console.log(event.target);
+    console.log(domain);
     return false;
 });
