@@ -48,7 +48,7 @@ var diplaylink;
  
 
 $("#presentationResouse a").click(function(event) {
-   var htmlTemplate = "<figure><img><article><h1></h1><p></p><a ></a></article></figure>";
+   var htmlTemplate = "<figure><img><article><h1></h1><p></p><a></a></article></figure>";
    var domain = $(location).attr('href');
 
     heading = $(this).data("heading");
@@ -76,7 +76,8 @@ $("#presentationResouse a").click(function(event) {
                         });
                         $("#sb-player img").css('margin-top', '18px');
                         $("#sb-player a").attr({
-                            href: diplaylink
+                            href: diplaylink,
+                            target:"_blank"
                         });
                         
                    }

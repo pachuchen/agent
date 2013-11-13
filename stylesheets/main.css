@@ -104,7 +104,8 @@ header #mainBar ul {
   margin: 0 auto;
 }
 header #mainBar ul li {
-  padding: 10px 44px;
+  padding: 10px 43px;
+  width: 73px;
   float: left;
   font-size: 18px;
 }

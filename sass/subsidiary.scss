@@ -170,7 +170,7 @@ body{
 				height: 18px;
 				padding:15px 30px;
 				&:hover{
-					color: #B00000;
+					color: #4F0000;
 					background-image: url(../images/red_btn_hover.gif);
 				}
 			}
@@ -180,11 +180,14 @@ body{
 
 .easyhtml5video{
 			float:left;
-			margin: 10px
+			margin: 10px;
 		}
 
 		.video_discript{
-			margin:10px;
+			background: url(../images/plate.jpg) center top no-repeat;
+		float: left;
+		width: 538px;
+		height: 400px;	
 		h1{
 		color:$PrimaryColor; 
 			font-weight: bold;

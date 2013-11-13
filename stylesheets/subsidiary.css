@@ -380,7 +380,7 @@ body {
   padding: 15px 30px;
 }
 #sb-player article a:hover {
-  color: #B00000;
+  color: #4F0000;
   background-image: url(../images/red_btn_hover.gif);
 }
 
@@ -390,7 +390,10 @@ body {
 }
 
 .video_discript {
-  margin: 10px;
+  background: url(../images/plate.jpg) center top no-repeat;
+  float: left;
+  width: 538px;
+  height: 400px;
 }
 .video_discript h1 {
   color: #bd0020;
