@@ -114,7 +114,8 @@ body{
 		text-indent: 2em;
 		line-height: 29px;
 		p{
-			margin: 20px 30px;	
+			margin: 20px 0px;
+			padding-left: 0px;	
 		}
 		h1{
 			@include heading_base;
@@ -122,6 +123,7 @@ body{
 		ol{
 			text-indent: 0em;
 			list-style-type:upper-roman;
+			list-style-position:inside;
 			padding: 0px 0px 50px 0px; 
 		}
 	}
@@ -134,41 +136,67 @@ body{
 	img{
 		margin: 10px;
 		float: left;
-		margin-top: 100px;
+		margin-top: 85px;
 	}
 	article{
 		background: url(../images/plate.jpg) center top no-repeat;
 		float: left;
 		width: 690px;
 		height: 400px;
-	h1{
-		color:$PrimaryColor; 
-		font-weight: bold;
-		font-size: 60px;
-		line-height: 90px;
-		text-indent: 25px;
+			h1{
+				color:$PrimaryColor; 
+				font-weight: bold;
+				font-size: 60px;
+				line-height: 90px;
+				text-indent: 25px;
 
-	}
-	p{
-		font-size: 15px;
-		text-indent: 25px;
-		line-height: 30px;
-		padding:0px 20px 0px 20px;
-		text-indent: 0px;
-	}
-	a{
-		display: block;
-		position: absolute;
-		bottom: 30px;
-		right:30px;
-		background-color: $PrimaryColor;
-		font-size: 17px;
-		padding: 14px;
-		&:hover{
-			background-color: #FD554D
+			}
+			p{
+				font-size: 15px;
+				text-indent: 25px;
+				line-height: 30px;
+				padding:0px 20px 0px 20px;
+				text-indent: 0px;
+			}
+			a{
+				color: #C4A4AC;
+				display: none;
+				position: absolute;
+				bottom: 30px;
+				right:30px;
+				background: url(../images/red_btn_normail.gif) center top no-repeat;
+				font-size: 17px;
+				width: 120px;
+				height: 18px;
+				padding:15px 30px;
+				&:hover{
+					color: #B00000;
+					background-image: url(../images/red_btn_hover.gif);
+				}
+			}
 		}
-	}
-	}
 } 
 
+
+.easyhtml5video{
+			float:left;
+			margin: 10px
+		}
+
+		.video_discript{
+			margin:10px;
+		h1{
+		color:$PrimaryColor; 
+			font-weight: bold;
+			font-size: 40px;
+			line-height: 60px;
+			text-indent: 13px;
+		}
+
+		h2{
+			font-size: 20px;
+			text-indent: 13px;
+			line-height: 28px;
+		}
+		}
  

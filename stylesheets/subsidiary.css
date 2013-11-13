@@ -320,7 +320,8 @@ body {
   line-height: 29px;
 }
 #questions article p {
-  margin: 20px 30px;
+  margin: 20px 0px;
+  padding-left: 0px;
 }
 #questions article h1 {
   font-size: 20px;
@@ -331,6 +332,7 @@ body {
 #questions article ol {
   text-indent: 0em;
   list-style-type: upper-roman;
+  list-style-position: inside;
   padding: 0px 0px 50px 0px;
 }
 #questions figure figcaption {
@@ -343,7 +345,7 @@ body {
 #sb-player img {
   margin: 10px;
   float: left;
-  margin-top: 100px;
+  margin-top: 85px;
 }
 #sb-player article {
   background: url(../images/plate.jpg) center top no-repeat;
@@ -366,14 +368,39 @@ body {
   text-indent: 0px;
 }
 #sb-player article a {
-  display: block;
+  color: #C4A4AC;
+  display: none;
   position: absolute;
   bottom: 30px;
   right: 30px;
-  background-color: #bd0020;
+  background: url(../images/red_btn_normail.gif) center top no-repeat;
   font-size: 17px;
-  padding: 14px;
+  width: 120px;
+  height: 18px;
+  padding: 15px 30px;
 }
 #sb-player article a:hover {
-  background-color: #fd554d;
+  color: #B00000;
+  background-image: url(../images/red_btn_hover.gif);
+}
+
+.easyhtml5video {
+  float: left;
+  margin: 10px;
+}
+
+.video_discript {
+  margin: 10px;
+}
+.video_discript h1 {
+  color: #bd0020;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-indent: 13px;
+}
+.video_discript h2 {
+  font-size: 20px;
+  text-indent: 13px;
+  line-height: 28px;
 }

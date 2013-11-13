@@ -42,6 +42,17 @@
   color: #006bc4;
 }
 
-#sb-player h1 {
+#sb-player article h1 {
+  color: #006bc4;
+}
+#sb-player article a {
+  color: #979FC1;
+  background: url(../images/blue_btn_normail.gif) center top no-repeat;
+}
+#sb-player article a:hover {
+  color: #0754A9;
+  background-image: url(../images/blue_btn_hover.gif);
+}
+#sb-player .video_discript h1 {
   color: #006bc4;
 }

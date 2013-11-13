@@ -26,7 +26,7 @@ window.onload = function() {
     });
 
 };*/
-var x=document.getElementById("test");
+// var x=document.getElementById("test");
 //console.log(x.className)
 
 //x.onclick=displayContent;
@@ -44,7 +44,7 @@ var x=document.getElementById("test");
 var heading;
 var discription;
 var displayImg;
-var get_href;
+var diplaylink;
  
 
 $("#presentationResouse a").click(function(event) {
@@ -52,26 +52,36 @@ $("#presentationResouse a").click(function(event) {
    var domain = $(location).attr('href');
 
     heading = $(this).data("heading");
-    discription =  $(this).data("discription")
-    displayImg= $(this).data("image")
+    discription =  $(this).data("discription");
+    displayImg= $(this).data("image");
+    diplaylink=$(this).data("link");
+
      Shadowbox.open({
         content:    htmlTemplate,
         player:     "html",
         width:     1000,
-        height:    400,
+        height:    296,
        
         options: {onFinish: function () { 
                $("#sb-player h1").text(heading);
                 $("#sb-player p").text(discription);
                 $("#sb-player img").attr({
-                    src: displayImg
+                    src: displayImg  
                 });
-                if (domain.match("videoResouse")) {
+
+                if (domain.match("websiteResouse")) {
                         $("#sb-player a").text("立即前往")
-                       }
+                        $("#sb-player a").css({
+                            'display': 'block',
+                        });
+                        $("#sb-player img").css('margin-top', '18px');
+                        $("#sb-player a").attr({
+                            href: diplaylink
+                        });
+                        
+                   }
                 }}
     });
     
-    console.log(domain);
     return false;
 });
