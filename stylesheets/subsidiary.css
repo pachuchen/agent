@@ -1,5 +1,5 @@
 .presentationWeb-sprite, .presentationWeb-baccarat, .presentationWeb-bb3d, .presentationWeb-colordish, .presentationWeb-keno, .presentationWeb-slot, .presentationWeb-sport, .presentationWeb-texaPoker {
-  background: url('../images/presentationWeb-sccd82fe108.png') no-repeat;
+  background: url('../images/presentationWeb-s71d620c540.png') no-repeat;
 }
 
 .presentationVideo-sprite, .presentationVideo-game_live_bb3d, .presentationVideo-game_live_dt, .presentationVideo-game_live_mahjong, .presentationVideo-game_live_roulette, .presentationVideo-game_live_sedie, .presentationVideo-game_live_sicbo, .presentationVideo-game_live_texas, .presentationVideo-game_live_wenzhou {
@@ -23,31 +23,31 @@
 }
 
 .presentationWeb-baccarat {
-  background-position: 0 -105px;
-}
-
-.presentationWeb-bb3d {
-  background-position: 0 -315px;
-}
-
-.presentationWeb-colordish {
-  background-position: 0 -630px;
-}
-
-.presentationWeb-keno {
-  background-position: 0 -525px;
-}
-
-.presentationWeb-slot {
   background-position: 0 0;
 }
 
+.presentationWeb-bb3d {
+  background-position: 0 -399px;
+}
+
+.presentationWeb-colordish {
+  background-position: 0 -714px;
+}
+
+.presentationWeb-keno {
+  background-position: 0 -609px;
+}
+
+.presentationWeb-slot {
+  background-position: 0 -189px;
+}
+
 .presentationWeb-sport {
-  background-position: 0 -210px;
+  background-position: 0 -294px;
 }
 
 .presentationWeb-texaPoker {
-  background-position: 0 -420px;
+  background-position: 0 -504px;
 }
 
 .presentationVideo-game_live_bb3d {

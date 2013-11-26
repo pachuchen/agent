@@ -130,6 +130,10 @@ header #mainBar ul li #gamesMenu li {
   margin: 0px;
   float: none;
 }
+header #mainBar ul li #gamesMenu li:last-child {
+  padding: 10px 35px;
+  width: 90px;
+}
 header #mainBar ul .intro_games:hover #gamesMenu {
   visibility: visible;
 }
