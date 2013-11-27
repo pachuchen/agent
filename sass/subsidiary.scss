@@ -11,6 +11,8 @@
 @include all-slot-sprites;
 @include all-lottery-sprites;
 
+//@import "outline";
+
 $PrimaryColor:#bd0020;
 
 body{
@@ -49,6 +51,10 @@ body{
 
 #lotterygame{
 	background-image: url(../images/lotterygame_r.jpg);
+	background-position: 0px;
+}
+#bojoclubImg{
+	background-image: url(../images/bojoclub_r.jpg);
 	background-position: 0px;
 }
 
@@ -202,4 +208,175 @@ body{
 			line-height: 28px;
 		}
 		}
+
+.bojoclub_content{
+	background: url(../images/bojoclub_content_bg.jpg)right top no-repeat;
+	h1{
+		font-size: 24px;
+		border-bottom:#c11459 solid 2px ;
+		text-indent: -119988px;
+	    text-align: left;
+	    overflow: inherit;
+		width: 432px;
+		margin-left: 188px
+	}
+.bojoclub_feature{
+	margin-top: 114px;
+	background: url(../images/bojoclub_feature.jpg)left top no-repeat;
+p{
+	padding-right: 56px;
+}
+}
+}
+.bojoclub_play_game{
+	margin-top: 50px;
+	background: url(../images/bojoclub_play_game.jpg)left top no-repeat;
+}
+
+.actors{
+	//float: left;
+	width: 357px;
+	margin: 8px 0px 0px 100px;
+	ul {
+  width: 460px;
+  *zoom: 1;
+}
+ &:before,  &:after {
+  content: "";
+  display: table;
+}
+ &:after {
+  clear: both;
+}
+	div{
+		display: inline-block;
+		float: left;
+		width: 98px;
+		height: 98px;
+		margin:20px 10px;
+
+		h3{
+			text-align: center;
+			padding-top: 100px;
+			font-size: 18px;
+			color: $PrimaryColor;
+		}
+	}
+}
+
+#richer{
+	background: url(../images/richer_icon.jpg) top center no-repeat;
+}
+#gang{
+		background: url(../images/gang_icon.jpg) top center no-repeat;
+}
+#hostess{
+	background: url(../images/hostess_icon.jpg) top center no-repeat;
+}
+
+#waiter{
+	background: url(../images/waiter_icon.jpg) top center no-repeat;
+}
+#waiter{
+	background: url(../images/waiter_icon.jpg) top center no-repeat;
+}
+#dancer{
+	background: url(../images/dancer_icon.jpg) top center no-repeat;
+}
+#police{
+	background: url(../images/police_icon.jpg) top center no-repeat;
+}
+
+#teachSlider {
+            width:620px;
+            height:287px;
+            padding: 39px 0px 0px 39px;
+            line-height: 30px;
+            font-size:14px;
+            color:#74795B;
+        }
+        .flowContainer {
+            width:439px;
+            height:589px;
+            position: absolute;
+            top: 12px;
+            left: 78px;
+        }
+        .flowContainer div {
+            width:439px;
+            height:408px;
+            display:block;
+        }
+
+        .flowContainer h3{
+              color: #c11459;
+              font-size: 30px;
+              font-weight: bold;
+              margin: 30px 0px 10px 0px;
+              }  
+
+        .iphoneFrame {
+          background-image: url('../images/teach/Iphone5.png');
+            width:620px;
+            height:287px;
+            position: relative;
+             top: -597px;
+            left: -8px;
+            z-index: 100;
+        }
+
+           
+          .game_interface li{
+            text-indent: 10px;
+            color: #f7f7f7;
+            background: url(../images/game_interface_num/no_bg.jpg)left center no-repeat;
+          }
+          .game_interface span{
+            color: #404040;
+            padding-left: 13px;
+          }
+
+      a.btn_backward,a.btn_forward{
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          display: block;
+          width: 120px;
+          height: 120px;
+          background: url(../images/btn_backward.jpg) top center no-repeat;
+          position: relative;
+          top:-576px;
+          left:-55px;
+        }
+       a.btn_backward:hover{
+            background-image: url(../images/btn_backward_hover.jpg);
+          } 
+
+         a.btn_forward{
+      background-image: url(../images/btn_forward.jpg);
+      top:-702px;
+          left:532px;
+    } 
+  a.btn_forward:hover{
+        background-image: url(../images/btn_forward_hover.jpg);
+      }		
  
+ .bogoclub_download{
+ 	margin-top: 250px;
+ 	background:url("../images/bojoclub_download_bg.jpg")center top no-repeat; 
+ 	h1{
+ 		border-bottom:none; 
+ 		padding:50px 0px;
+ 	}
+ 	a{
+ 		background: url(../images/free_normal.png)center top no-repeat;
+ 		text-align: center;
+ 		display: block;
+ 		padding-top: 160px;
+ 		margin-bottom: 80px;
+
+ 		&:hover{
+ 			background-image: url(../images/free_hover.png);
+ 		}
+ 	}
+ }

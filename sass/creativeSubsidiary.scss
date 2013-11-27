@@ -30,6 +30,10 @@
 	background-image: url(../images/lotterygame_b.jpg);
 	background-position: 0px;
 }
+#bojoclubImg{
+	background-image: url(../images/bojoclub_b.jpg);
+	background-position: 0px;
+}
 
 
 #presentationResouse{
@@ -65,4 +69,12 @@
 			  color: $PrimaryColor;
 			}
 } 
+
+.actors{
+div{
+	h3{
+			color: $PrimaryColor;
+		}
+	}			
+}
       
