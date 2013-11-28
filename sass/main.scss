@@ -49,8 +49,9 @@ header{
 		ul{			
 			margin: 0 auto;
 			li{
-				padding: 10px 43px;
-				width: 73px;
+				padding: 10px 0px;
+				width: 159px;
+				text-align: center;
 				float: left;
 				font-size: 18px;
 				&:hover{
@@ -65,17 +66,12 @@ header{
 				float: none;
 				padding: 15px 0px 15px 0px;
 				margin-top: 10px;
-				margin-left: -44px;
 				z-index: 9;
 				background-color:$PrimaryColor;
 				visibility: hidden;
 				li{
 					margin: 0px;
 					float: none;
-				&:last-child{
-					padding: 10px 35px;
-					width: 90px;
-				}
 				}
 			}	
 			}

@@ -104,8 +104,9 @@ header #mainBar ul {
   margin: 0 auto;
 }
 header #mainBar ul li {
-  padding: 10px 43px;
-  width: 73px;
+  padding: 10px 0px;
+  width: 159px;
+  text-align: center;
   float: left;
   font-size: 18px;
 }
@@ -121,7 +122,6 @@ header #mainBar ul li #gamesMenu {
   float: none;
   padding: 15px 0px 15px 0px;
   margin-top: 10px;
-  margin-left: -44px;
   z-index: 9;
   background-color: #bd0020;
   visibility: hidden;
@@ -129,10 +129,6 @@ header #mainBar ul li #gamesMenu {
 header #mainBar ul li #gamesMenu li {
   margin: 0px;
   float: none;
-}
-header #mainBar ul li #gamesMenu li:last-child {
-  padding: 10px 35px;
-  width: 90px;
 }
 header #mainBar ul .intro_games:hover #gamesMenu {
   visibility: visible;

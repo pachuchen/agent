@@ -22,16 +22,31 @@ $("#presentationResouse a").click(function(e) {
    var videoWebM=$(playVideo).data("videowebm");
    var videoOgv=$(playVideo).data("videoogv");
    var videoMp4=$(playVideo).data("videompfour");
+<<<<<<< HEAD
+   var videoType=$(playVideo).data("videotype");
+   var videoClassify=$(playVideo).data("videoclassify");
+
+   console.log(videoType+"/"+videoClassify);
+
+     Shadowbox.open({
+        content:    '<div class="easyhtml5video" style="position:relative;max-width:'+videoWidth+'px;"><video controls="controls" autoplay="autoplay" poster="'+videoPoster+'" style="width:100%" title="'+videoWidth+'"><source src="video_src/'+videoM4V+'"type="video/mp4" /><source src='+videoWebM+' type="video/webm" /><source src='+videoOgv+' type="video/ogg" /><source src='+videoMp4+' /><object type="application/x-shockwave-flash" data="index.files/html5video/flashfox.swf" width="'+videoWidth+'" height="'+videoHight+'" style="position:relative;"><param name="movie" value="index.files/html5video/flashfox.swf" /><param name="allowFullScreen" value="true" /><param name="flashVars" value="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster='+videoPoster+'&amp;src='+videoM4V+'" /> <embed src="index.files/html5video/flashfox.swf" width="'+videoWidth+'" height="'+videoHight+'" style="position:relative;" flashVars="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster='+videoPoster+'&amp;src='+videoM4V+'"allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" /><img alt='+heading+' src='+videoPoster+'style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" /></object></video></div><script src="js/html5ext.js" type="text/javascript"></script><div class="video_discript"><h1></h1><h2>类 型 : <span id="video_type"></span></h2><h2>类 别 : <span id="video_classify"></span><h2>長 度 : <span id="video_duration"></span></h2></div>',
+=======
 
      Shadowbox.open({
         content:    '<div class="easyhtml5video" style="position:relative;max-width:'+videoWidth+'px;"><video controls="controls" autoplay="autoplay" poster="'+videoPoster+'" style="width:100%" title="'+videoWidth+'"><source src="video_src/'+videoM4V+'"type="video/mp4" /><source src='+videoWebM+' type="video/webm" /><source src='+videoOgv+' type="video/ogg" /><source src='+videoMp4+' /><object type="application/x-shockwave-flash" data="index.files/html5video/flashfox.swf" width="'+videoWidth+'" height="'+videoHight+'" style="position:relative;"><param name="movie" value="index.files/html5video/flashfox.swf" /><param name="allowFullScreen" value="true" /><param name="flashVars" value="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster='+videoPoster+'&amp;src='+videoM4V+'" /> <embed src="index.files/html5video/flashfox.swf" width="'+videoWidth+'" height="'+videoHight+'" style="position:relative;" flashVars="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster='+videoPoster+'&amp;src='+videoM4V+'"allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" /><img alt='+heading+' src='+videoPoster+'style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" /></object></video></div><script src="js/html5ext.js" type="text/javascript"></script><div class="video_discript"><h1></h1><h2>类 型 : 视频</h2><h2>長 度 : <span id="video_duration"></span></h2></div>',
+>>>>>>> cd29945b1258831a5178d4532df2684a22767a14
         player:     "html",
-        width:     1000,
-        height:    296,
+        width:     1038,
+        height:    340,
        
         options: {onFinish: function () { 
                $("#sb-player h1").text(heading);
                 $("#sb-player #video_duration").text(duration);
+<<<<<<< HEAD
+                $("#video_type").text(videoType);
+                $("#video_classify").text(videoClassify);
+=======
+>>>>>>> cd29945b1258831a5178d4532df2684a22767a14
             }}
     });
     return false;
